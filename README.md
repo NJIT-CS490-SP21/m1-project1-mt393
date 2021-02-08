@@ -21,17 +21,25 @@
 ## unsolved issues :(
 
 issue: I should allow for user input by giving them a choice of artists
+
 potential solution: I can make a button for each and use javascript's onclick function to handle the changing of pages
 
+
 issue: the app is ugly
-solution: I can use css for beauty and html for strucure. i can use the background attribute to add color with the margin attribute for a border. i can also tabulate the information im presenting with the table tag. That would make it easier for me to scale up and add more information like lyrics
+
+potential solution: I can use css for beauty and html for strucure. i can use the background attribute to add color with the margin attribute for a border. i can also tabulate the information im presenting with the table tag. That would make it easier for me to scale up and add more information like lyrics
 
 ## solved issues :)
 issue: I dont know the html to add the link to whatever filetype the audio is. its not an image though the player has an appearance. The link doesnt end in .mp3 or anything, so what is this filetype and how do i incorporate?
+
 solution: i still dont know the filetype but html has an all encompassing audio tag that allowed for it.
 
+
 issue: i sometimes get an out of range error when opening my app. am i launching something wrong? i assume so because i tried again and it worked.
+
 solution: one of the random cases was causing the out of bound error. i had used randint(1,3) instead of randint(0,2) to pick from my list of 3 artists.
 
+
 issue: find_dotenv was the wrong datatype for load_dotenv
+
 solution: hardcode, as a string, the name of my .env file in to load_dotenv
